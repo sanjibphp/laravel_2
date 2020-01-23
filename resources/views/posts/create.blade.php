@@ -13,7 +13,7 @@
             {{Form::textarea('body', '', ['id' => 'post-body', 'class'=>'form-control'])}}
         </div>
         <div class='form-group'>
-            {{FOrm::label('cover_image', 'Cover Image: ')}}
+            {{Form::label('cover_image', 'Cover Image: ')}}
             {{Form::file('cover_image')}}
         </div>
         {{Form::submit('Submit',['class'=>'btn btn-primary'])}}
